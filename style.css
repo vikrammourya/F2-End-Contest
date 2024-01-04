@@ -233,3 +233,30 @@ input[type="checkbox"]:checked {
 
   border-bottom: 1px solid grey;
 }
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens or mobile devices */
+  #logo {
+    margin-inline: 20px;
+    margin-top: 10px;
+  }
+  #info {
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 22px;
+  }
+  .inp{
+    margin-top: 10px;
+  }
+  #heading_filter{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 19%;
+    margin-top: 80px;
+  }
+
+}
+
